@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* General Page Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #FBFDFF;
+            width: 1512px;
+            height: 1742px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            column-gap: 277px;
+            row-gap: 332px;
+        }
+        div[<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHELLIN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Biryani:wght@600;900&display=swap" rel="stylesheet">
+    <style>
+        /* General body styles */
+        body {
+            width: 1512px;
+            height: auto;
+            margin: 0;
+            padding: 0;
+            font-family: 'Biryani', sans-serif;
+            background-color: #FBFDFF;
+            position: relative;
+            overflow-x: hidden;
+        }
+        ]
+
+
+        /* Title "SHELLIN" styling */
+        h1 {
+            font-family: 'Biryani', sans-serif;
+            font-size: 180px;
+            color: #38A3A5;
+            width: 801.22px;
+            height: 54.85px;
+            position: absolute;
+            left: 355.39px;
+            top: 30.23px;
+            opacity: 0;
+            transform: translateX(-100%);
+            animation: slideInLeft 3s forwards;
+        }
+
+        /* Subheading "Graphic Design" */
+        h2 {
+            font-family: 'Biryani', sans-serif;
+            font-size: 24px;
+            color: #38A3A5;
+            width: 311.6px;
+            height: 37.41px;
+            position: absolute;
+            left: 81px;
+            top: 498px;
+        }
+
+        /* Paragraph description for Graphic Design */
+        p.graphic-design {
+            font-family: 'Biryani', sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            color: #292A29;
+            width: 355.66px;
+            height: 209px;
+            position: absolute;
+            left: 81.83px;
+            top: 557.95px;
+        }
+
+        /* Subheading "Interaction Design" */
+        h3 {
+            font-family: 'Biryani', sans-serif;
+            font-size: 24px;
+            color: #38A3A5;
+            width: 311.6px;
+            height: 37.41px;
+            position: absolute;
+            left: 81px;
+            top: 912px;
+        }
+
+        /* Paragraph description for Interaction Design */
+        p.interaction-design {
+            font-family: 'Biryani', sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            color: #292A29;
+            width: 355.66px;
+            height: 209px;
+            position: absolute;
+            left: 81.83px;
+            top: 971.95px;
+        }
+
+        /* Subheading "Packaging Design" */
+        h4 {
+            font-family: 'Biryani', sans-serif;
+            font-size: 24px;
+            color: #38A3A5;
+            width: 311.6px;
+            height: 37.41px;
+            position: absolute;
+            left: 82.51px;
+            top: 1327px;
+        }
+
+        /* Paragraph description for Packaging Design */
+        p.packaging-design {
+            font-family: 'Biryani', sans-serif;
+            font-weight: 600;
+            font-size: 12px;
+            color: #292A29;
+            width: 355.66px;
+            height: 209px;
+            position: absolute;
+            left: 83.34px;
+            top: 1386.95px;
+        }
+
+        /* Keyframe for the title's slide-in-left animation */
+        @keyframes slideInLeft {
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Title -->
+    <h1>SHELLIN</h1>
+
+    <!-- Section: Graphic Design -->
+    <h2>Graphic Design</h2>
+    <p class="graphic-design">
+        Graphic design is the art of visual communication that combines creativity and strategy to craft compelling visuals. 
+        From branding to digital interfaces, graphic design transforms ideas into engaging visuals that captivate and inspire audiences. 
+        It’s where aesthetics meet functionality, shaping how people perceive and interact with brands, products, and messages. 
+        Let your story be told through powerful design!
+    </p>
+
+    <!-- Section: Interaction Design -->
+    <h3>Interaction Design</h3>
+    <p class="interaction-design">
+        Interaction design is the art of crafting seamless, intuitive experiences between users and digital interfaces. 
+        It focuses on how people engage with technology, blending creativity and functionality to make every click, swipe, 
+        and scroll meaningful. Great interaction design turns complex systems into effortless journeys, ensuring users 
+        feel empowered and connected with every interaction.
+    </p>
+
+    <!-- Section: Packaging Design -->
+    <h4>Packaging Design</h4>
+    <p class="packaging-design">
+        Packaging design is more than just a container—it's a visual storyteller. It captures attention, communicates the essence of the product, 
+        and creates an unforgettable first impression. A well-crafted package not only protects the product but also enhances the user experience, 
+        leaving a lasting impact that sets the brand apart. Bold, creative, and functional, great packaging design turns heads and builds trust.
+    </p>
+
+
+<style>
+    /* General styles for all image boxes */
+.image-box {
+    width: 277px;
+    height: 332px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: absolute;
+    transition: filter 0.5s ease; /* Smooth animation for grayscale to color */
+    filter: grayscale(100%); /* Initially set to grayscale */
+}
+
+.image-box:hover {
+    filter: grayscale(0); /* On hover, remove grayscale to show full color */
+}
+
+/* Image box 1 */
+.image-box1 {
+    left: 493.75px;
+    top: 498px;
+}
+
+/* Image box 2 */
+.image-box2 {
+    left: 823.88px;
+    top: 498px;
+}
+
+/* Image box 3 */
+.image-box3 {
+    left: 1154px;
+    top: 498px;
+}
+
+/* Image box 4 */
+.image-box4 {
+    left: 493.75px;
+    top: 910.45px;
+}
+
+/* Image box 5 */
+.image-box5 {
+    left: 824.26px;
+    top: 912px;
+}
+
+/* Image box 6 */
+.image-box6 {
+    left: 1154.77px;
+    top: 912px;
+}
+
+/* Image box 7 */
+.image-box7 {
+    left: 493.75px;
+    top: 1326px;
+}
+
+/* Image box 8 */
+.image-box8 {
+    left: 824.26px;
+    top: 1326px;
+}
+
+/* Image box 9 */
+.image-box9 {
+    left: 1154px;
+    top: 1326px;
+}
+</style>
+<!-- Image Box 1 -->
+<div class="image-box image-box1">
+    <img src="https://i.pinimg.com/736x/a9/e4/32/a9e4322cb58f99d4ca08fead94c36cda.jpg" alt="Image 1" width="277" height="332">
+</div>
+
+<!-- Image Box 2 -->
+<div class="image-box image-box2">
+    <img src="https://i.pinimg.com/736x/5a/e8/78/5ae878ea71ab665bea798cec88e7e695.jpg" alt="Image 2" width="277" height="332">
+</div>
+
+<!-- Image Box 3 -->
+<div class="image-box image-box3">
+    <img src="https://i.pinimg.com/474x/31/1d/e4/311de440bf48c5c59b52dc0c87a61d7b.jpg" alt="Image 3" width="277" height="332">
+</div>
+
+<!-- Image Box 4 -->
+<div class="image-box image-box4">
+    <img src="https://i.pinimg.com/736x/61/a5/a1/61a5a16786a222700db46d804f9b5c8c.jpg" alt="Image 4" width="277" height="332">
+</div>
+
+<!-- Image Box 5 -->
+<div class="image-box image-box5">
+    <img src="https://i.pinimg.com/474x/50/3b/8a/503b8ab4d401d45d6f1714ec02dd704e.jpg" alt="Image 5" width="277" height="332">
+</div>
+
+<!-- Image Box 6 -->
+<div class="image-box image-box6">
+    <img src="https://i.pinimg.com/474x/c8/13/32/c813327a1327c4a1eceef6c6910f2b8b.jpg" alt="Image 6" width="277" height="332">
+</div>
+
+<!-- Image Box 7 -->
+<div class="image-box image-box7">
+    <img src="https://i.pinimg.com/474x/a2/58/96/a25896e141c18a6fe9cc8e11844087df.jpg" alt="Image 7" width="277" height="332">
+</div>
+
+<!-- Image Box 8 -->
+<div class="image-box image-box8">
+    <img src="https://i.pinimg.com/736x/1e/06/e2/1e06e274eddbc337ff838a71476ebacb.jpg" alt="Image 8" width="277" height="332">
+</div>
+
+<!-- Image Box 9 -->
+<div class="image-box image-box9">
+    <img src="https://i.pinimg.com/736x/a6/40/47/a640470e4218d22b7fb7d22ff6b4b8b5.jpg" alt="Image 9" width="277" height="332">
+</div>
+
+</body>
+</html>
+  
+
+</style>
+
+</body>
+</html>

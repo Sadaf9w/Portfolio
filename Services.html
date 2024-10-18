@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* General Page Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #FBFDFF;
+            width: 1512px;
+            height: 1742px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            column-gap: 277px;
+            row-gap: 332px;
+        }
+
+
+
+
+DOCTYPE html>
+html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Page Settings */
+        body {
+            background-color: #FBFDFF;
+            width: 1512px;
+            height: 1742px;
+            margin: 0 auto;
+            font-family: 'Biryani', sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Animation */
+        @keyframes slideRight {
+            0% {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        /* Image hover effect */
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            filter: grayscale(100%);
+            transition: filter 0.5s ease;
+        }
+
+        .image-box img:hover {
+            filter: grayscale(0%);
+        }
+
+        /* Heading Animation */
+        .slide-in {
+            animation: slideRight 1s ease-out;
+        }
+
+        /* Container for Layout */
+        .container {
+            padding: 81px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, auto);
+            grid-column-gap: 277px;
+            grid-row-gap: 332px;
+        }
+
+        /* Heading Style */
+        h1 {
+            color: #38A3A5;
+            font-size: 48px;
+            font-family: 'Biryani Black', sans-serif;
+            position: absolute;
+            left: 81px;
+            top: 206.59px;
+            width: 430.7px;
+            height: 37.41px;
+        }
+
+        /* Subheadings Style */
+        h2 {
+            color: #38A3A5;
+            font-size: 24px;
+            font-family: 'Biryani Black', sans-serif;
+        }
+
+        /* Paragraph Style */
+        p {
+            color: #292A29;
+            font-size: 12px;
+            font-family: 'Biryani Semibold', sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Section: Graphic Design */
+        .graphic-design {
+            position: absolute;
+            top: 321.35px;
+            left: 81px;
+        }
+
+        .graphic-design p {
+            margin-top: 60px;
+            width: 515.94px;
+            height: 141.31px;
+        }
+
+        /* Section: Interaction Design */
+        .interaction-design {
+            position: absolute;
+            top: 822.31px;
+            left: 913.4px;
+        }
+
+        .interaction-design p {
+            margin-top: 60px;
+            width: 512.97px;
+            height: 146px;
+        }
+
+        /* Section: Packaging Design */
+        .packaging-design {
+            position: absolute;
+            top: 1342.66px;
+            left: 82.36px;
+        }
+
+        .packaging-design p {
+            margin-top: 60px;
+            width: 514.05px;
+            height: 138.64px;
+        }
+
+        /* Image Box Styles */
+        .image-box-1 {
+            position: absolute;
+            top: 204.05px;
+            left: 838.62px;
+            width: 592.38px;
+            height: 435.87px;
+        }
+
+        .image-box-2 {
+            position: absolute;
+            top: 706.01px;
+            left: 83.34px;
+            width: 580.15px;
+            height: 424.02px;
+        }
+
+        .image-box-3 {
+            position: absolute;
+            top: 1232.22px;
+            left: 909.6px;
+            width: 521.4px;
+            height: 419.45px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Container for all content -->
+    <div class="container">
+
+        <!-- Section: What do we do? -->
+        <h1 class="slide-in">What do we do?</h1>
+
+        <!-- Section: Graphic Design -->
+        <div class="graphic-design">
+            <h2>Graphic Design</h2>
+            <p>
+                I specialise in providing tailored graphic design services, helping them craft unique visual identities that resonate with their audience.
+                My passion for working with emerging brands comes from the dynamic startup ecosystem, which offers the opportunity for creative freedom and impactful collaborations.
+                With a client-centred approach, I focus on delivering innovative, adaptable, and cost-effective design solutions that elevate your brand and build long-term success.
+                Together, we can turn your vision into compelling visual narratives that stand out in a competitive market.
+            </p>
+        </div>
+
+        <!-- Section: Interaction Design -->
+        <div class="interaction-design">
+            <h2>Interaction Design</h2>
+            <p>
+                At the heart of my interaction design approach is a dedication, providing them with user-centred solutions that enhance both functionality and engagement.
+                I believe in crafting intuitive digital experiences that align with the evolving needs of emerging brands.
+                Through close collaboration and dynamic partnerships, I help businesses not only build impactful interfaces but also establish their unique visual identity in the market.
+                By blending creativity, adaptability, and strategic thinking, I ensure that every interaction design adds value, fosters connection, and drives success for clients.
+            </p>
+        </div>
+
+        <!-- Section: Packaging Design -->
+        <div class="packaging-design">
+            <h2>Packaging Design</h2>
+            <p>
+                At the heart of my packaging design is a commitment to empowering startups and small businesses.
+                I focus on creating unique, eye-catching packaging that not only communicates your brand’s story but also stands out in a competitive market.
+                By partnering with dynamic, growing businesses, I embrace creative freedom and flexibility, tailoring designs that resonate with your audience.
+                Each project offers the opportunity to build long-lasting relationships and make a substantial impact on your brand’s identity, all while fostering innovation, inclusivity, and collaboration.
+            </p>
+        </div>
+
+        <!-- Image Box 1 -->
+        <div class="image-box image-box-1">
+            <img src="https://i.pinimg.com/736x/03/29/ab/0329ab784aefcabffe9c6fde2efecaa2.jpg" alt="Image 1">
+        </div>
+
+        <!-- Image Box 2 -->
+        <div class="image-box image-box-2">
+            <img src="https://i.pinimg.com/736x/f2/17/d5/f217d5d1d194f373da6f774ecb22e6c2.jpg" alt="Image 2">
+        </div>
+
+        <!-- Image Box 3 -->
+        <div class="image-box image-box-3">
+            <img src="https://i.pinimg.com/736x/49/1d/3d/491d3d3c078a53cde6a3e911ca212085.jpg" alt="Image 3">
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+</body>
+</html>
